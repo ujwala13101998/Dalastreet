@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-12T11:58:16 IST" name="    Regression Suite" finished-at="2022-06-12T11:59:13 IST" duration-ms="56685">
+    <groups>
+    </groups>
+    <test started-at="2022-06-12T11:58:16 IST" name="Test" finished-at="2022-06-12T11:59:13 IST" duration-ms="56685">
+      <class name="com.qa.testLayer.TradingTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:16 IST" name="start" finished-at="2022-06-12T11:58:16 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:16 IST" name="setUp" finished-at="2022-06-12T11:58:24 IST" duration-ms="7762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SellSharesOfAxis()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:24 IST" name="SellSharesOfAxis" finished-at="2022-06-12T11:58:33 IST" duration-ms="9090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SellSharesOfAxis -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:33 IST" name="tearDown" finished-at="2022-06-12T11:58:34 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:34 IST" name="setUp" finished-at="2022-06-12T11:58:37 IST" duration-ms="3807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SellSharesOfSbi()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:37 IST" name="SellSharesOfSbi" finished-at="2022-06-12T11:58:46 IST" duration-ms="9012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SellSharesOfSbi -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:46 IST" name="tearDown" finished-at="2022-06-12T11:58:47 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:47 IST" name="setUp" finished-at="2022-06-12T11:58:50 IST" duration-ms="3522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buySharesOfAxis()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:50 IST" name="buySharesOfAxis" finished-at="2022-06-12T11:58:59 IST" duration-ms="9037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buySharesOfAxis -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:59 IST" name="tearDown" finished-at="2022-06-12T11:58:59 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:58:59 IST" name="setUp" finished-at="2022-06-12T11:59:04 IST" duration-ms="4369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buySharesOfSBI()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:59:04 IST" name="buySharesOfSBI" finished-at="2022-06-12T11:59:13 IST" duration-ms="9000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buySharesOfSBI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:59:13 IST" name="tearDown" finished-at="2022-06-12T11:59:13 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.qa.testLayer.TradingTest@3febb011]" started-at="2022-06-12T11:59:13 IST" name="end" finished-at="2022-06-12T11:59:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.qa.testLayer.TradingTest -->
+    </test> <!-- Test -->
+  </suite> <!--     Regression Suite -->
+</testng-results>

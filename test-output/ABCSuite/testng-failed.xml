@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ABCSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners1.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="ABCTest(failed)">
+    <classes>
+      <class name="demoPackageV1.SoftAssert1">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- demoPackageV1.SoftAssert1 -->
+      <class name="annotations.TestNGKey">
+        <methods>
+          <include name="xyz"/>
+          <include name="nop"/>
+        </methods>
+      </class> <!-- annotations.TestNGKey -->
+      <class name="listeners1.Sample">
+        <methods>
+          <include name="test2"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- listeners1.Sample -->
+    </classes>
+  </test> <!-- ABCTest(failed) -->
+</suite> <!-- Failed suite [ABCSuite] -->
